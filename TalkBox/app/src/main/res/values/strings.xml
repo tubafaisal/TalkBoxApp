@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TalkBox</string>
+    <string name="admin_login">admin_login</string>
+    <string name="admin_email">admin_email</string>
+    <string name="admin_password">admin_password</string>
+    <string name="enter_email">enter_email</string>
+    <string name="enter_password">enter_password</string>
+    <string name="login">login</string>
+    <string name="admin_signup_register">admin_signup_register</string>
+    <string name="user_name">user_name</string>
+    <string name="user_email">user_email</string>
+    <string name="user_password">user_password</string>
+    <string name="user_signup_repeat_password">user_signup_repeat_password</string>
+    <string name="user_signup_phone_number">user_signup_phone_number</string>
+    <string name="user_signup_register">user_signup_register</string>
+    <string name="user_back">user_back</string>
+    <string name="user_login">user_login</string>
+    <string name="signup_here">signup here</string>
+</resources>

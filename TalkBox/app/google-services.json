@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "352167909145",
+    "firebase_url": "https://talkboxapp-b1aa5.firebaseio.com",
+    "project_id": "talkboxapp-b1aa5",
+    "storage_bucket": "talkboxapp-b1aa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352167909145:android:21bf2f06205e17dc",
+        "android_client_info": {
+          "package_name": "com.example.talkbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352167909145-30sub28en69p9a0k89rkr9llsjfeq37c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWEsmtJ_HOTWAZoEKnr_kBBS4YuYDEQjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352167909145-30sub28en69p9a0k89rkr9llsjfeq37c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
