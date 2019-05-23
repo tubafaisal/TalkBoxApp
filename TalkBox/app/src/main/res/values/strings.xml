@@ -16,4 +16,6 @@
     <string name="user_back">user_back</string>
     <string name="user_login">user_login</string>
     <string name="signup_here">signup here</string>
+    <string name="signup">signup</string>
+    <string name="login">login</string>
 </resources>

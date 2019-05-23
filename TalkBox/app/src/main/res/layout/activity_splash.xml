@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@drawable/talkbox"
+        />
+
+
+        <Button
+            android:id="@+id/btn_b_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="#F9B642"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:layout_marginBottom="10dp"
+            android:background="#373737"
+            android:fontFamily="@font/acme"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+           />
+        <Button
+            android:id="@+id/btn_b_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edt_txt_password_input"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#373737"
+            android:fontFamily="@font/acme"
+            android:clickable="true"
+            android:text="@string/signup"
+            android:textColor="#F9B642"
+            android:textSize="18sp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"/>
+</LinearLayout>
+
+
+
+

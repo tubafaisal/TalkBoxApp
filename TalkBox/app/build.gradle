@@ -32,7 +32,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:16.0.1'
     implementation 'com.google.firebase:firebase-auth:16.0.1'
     implementation 'com.kaopiz:kprogresshud:1.2.0'
-   // implementation 'com.airbnb.android:lottie:2.5.0'
+    // implementation 'com.airbnb.android:lottie:2.5.0'
     implementation 'com.muditsen.multilevelrecyclerview:multilevelview:1.0.0'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
