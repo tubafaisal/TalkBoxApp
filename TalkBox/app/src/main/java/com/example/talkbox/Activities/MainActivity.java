@@ -1,19 +1,16 @@
-package com.example.talkbox;
+package com.example.talkbox.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import android.content.Intent;
 import android.animation.Animator;
-import android.content.Intent;
 import android.os.Handler;
-import android.os.Bundle;
 import android.widget.ImageView;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 
-import com.daimajia.androidanimations.library.Techniques;
-import com.daimajia.androidanimations.library.YoYo;
+import com.example.talkbox.R;
 
 import me.wangyuwei.particleview.ParticleView;
 
@@ -62,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                startActivity(new Intent(MainActivity.this,SplashActivity.class));
+                startActivity(new Intent(MainActivity.this, SplashActivity.class));
                 finish();
             }
 

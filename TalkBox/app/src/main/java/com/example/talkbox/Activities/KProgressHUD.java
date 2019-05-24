@@ -1,4 +1,6 @@
-package com.example.talkbox;
+package com.example.talkbox.Activities;
+
+import com.example.talkbox.Activities.LoginActivity;
 
 class KProgressHUD {
     public static void create(LoginActivity loginActivity) {

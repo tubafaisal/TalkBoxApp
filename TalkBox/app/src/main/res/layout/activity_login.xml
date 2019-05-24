@@ -88,7 +88,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="#373737"
                     android:fontFamily="@font/acme"
-                    android:text="@string/login"
+                    android:text="@string/login_here"
                     android:textColor="#F9B642"
                     android:textSize="18sp" />
 

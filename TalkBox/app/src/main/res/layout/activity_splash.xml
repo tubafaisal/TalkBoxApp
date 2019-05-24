@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
+    tools:context=".Activities.SplashActivity"
     android:orientation="vertical"
     android:background="#fff"
     android:gravity="center">
@@ -19,7 +19,7 @@
             android:id="@+id/btn_b_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login"
+            android:text="@string/login_or"
             android:textColor="#F9B642"
             android:textSize="18sp"
             android:layout_centerHorizontal="true"
