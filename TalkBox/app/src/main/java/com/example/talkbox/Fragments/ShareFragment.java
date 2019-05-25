@@ -12,10 +12,10 @@ import com.example.talkbox.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CallFragment extends Fragment {
+public class ShareFragment extends Fragment {
 
 
-    public CallFragment() {
+    public ShareFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class CallFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_call, container, false);
+        return inflater.inflate(R.layout.fragment_share, container, false);
     }
 
 }

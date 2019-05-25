@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.talkbox.KProgressHUD;
+import com.example.talkbox.Models.UserModel;
 import com.example.talkbox.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;

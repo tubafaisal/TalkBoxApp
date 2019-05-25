@@ -35,5 +35,14 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="login_or">login or</string>
+    <string name="chats">Chats</string>
+    <string name="call">Call</string>
+    <string name="speechnotes">SpeechNotes</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="set_profile">Set Profile</string>
+    <string name="action_logout">action_logout</string>
+    <string name="about">about</string>
+    <string name="logout">logout</string>
+    <string name="select_languages">select_languages</string>
 
 </resources>

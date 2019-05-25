@@ -1,4 +1,4 @@
-package com.example.talkbox.Activities;
+package com.example.talkbox.Models;
 
 public class UserModel {
     private String Name;
