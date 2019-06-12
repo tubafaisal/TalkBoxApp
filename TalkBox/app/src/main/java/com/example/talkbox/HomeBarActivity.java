@@ -102,31 +102,22 @@ public class HomeBarActivity extends AppCompatActivity
         } else if (id == R.id.nav_call) {
             CallFragment callFragment=new CallFragment();
             FragmentManager manager=getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.mainLayout,callFragment).commit();
+            manager.beginTransaction().replace(R.id.homebar_content_main,callFragment).commit();
 
         } else if (id == R.id.nav_speechnotes) {
             SpeechNotesFragment speechNotesFragment=new SpeechNotesFragment();
             FragmentManager manager=getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.mainLayout,speechNotesFragment).commit();
+            manager.beginTransaction().replace(R.id.homebar_content_main,speechNotesFragment).commit();
 
         } else if (id == R.id.nav_reminder) {
             ReminderFragment reminderFragment=new ReminderFragment();
             FragmentManager manager=getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.mainLayout,reminderFragment).commit();
+            manager.beginTransaction().replace(R.id.homebar_content_main,reminderFragment).commit();
 
         } else if (id == R.id.nav_profile) {
-            ProfileFragment profileFragment=new ProfileFragment();
-            FragmentManager manager=getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.mainLayout,profileFragment).commit();
+            FragmentLoadinManagerWithBackStack(new ProfileFragment());
 
-        } else if (id == R.id.nav_share) {
-            ShareFragment shareFragment=new ShareFragment();
-            FragmentManager manager=getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.mainLayout,shareFragment).commit();
-
-        }
-
-
+        } else if (id == R.id.nav_share) ;;
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
